@@ -47,11 +47,13 @@ h5,
 
 .envio-gratis {
   text-align: center;
-  background-color: $color-marron;
+  background-color: #ad9a78;
   padding: 2px 2px;
-  color: white;
+  color: #6e6451;
   text-transform: uppercase;
   animation: to-withe 3s ease infinite;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 @keyframes to-withe {

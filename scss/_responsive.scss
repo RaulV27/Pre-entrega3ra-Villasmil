@@ -54,7 +54,19 @@
     font-size: 15px;
   }
 
+  .carousel-indicators {
+    display: none;
+  }
+
   .carousel-inner {
+    display: none;
+  }
+
+  .carousel-control-next-icon {
+    display: none;
+  }
+
+  .carousel-control-prev-icon {
     display: none;
   }
 
@@ -100,5 +112,24 @@
   .footer-link {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  .text-center2 {
+    text-align: center;
+  }
+}
+@media (max-width: 376px) {
+  .widget-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
